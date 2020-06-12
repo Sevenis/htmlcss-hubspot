@@ -17,12 +17,14 @@ body {
 header {
     background-color: #f5f8fa;
     border: 1px solid #cbd6e2;
+    line-height: 50px;
 }
 
 .header-bar {
     width: 70%;
     max-width: 1200px;
     margin: 0 auto;
+    /* line-height: 50px; */
     /* DA CANCELLARE */
      /* height: 100px;  */
 }
@@ -129,10 +131,26 @@ nav a {
 
 .bg-pink {
     background-color: #fff3ee;
-
-    /* DA CANCELLARE */
-    height: 300px;
 }
+
+.banner {
+    height: 400px;
+    position: relative;
+}
+
+.bg-pink .banner img {
+    position: absolute;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
 
 .bg-azure {
     background-color: #f5f8fa;
