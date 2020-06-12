@@ -192,20 +192,69 @@ nav a {
     padding: 10px 0;
 }
 
-
-
-
-
-
-
-
-
+/* INIZIO SEZIONE BOX */
 .bg-azure {
     background-color: #f5f8fa;
-
     /* DA CANCELLARE */
-    height: 300px;
+    /* position: relative; */
 }
+
+.row {
+    width: 70%;
+    /* height: 400px; */
+    background-color: white;
+    /* position: relative; */
+    margin: 0 auto;
+    /* border: 1px solid blacK; */
+}
+
+.row-top {
+    background-color: #f5f8fa;
+
+}
+
+.row-immagine {
+width: 40%;
+margin: 0 35%;
+}
+
+.row-top .row-immagine img {
+    width: auto;
+    height: 300px;
+    margin: 0 auto;
+    padding: 20px 0;
+
+} */
+
+.row-testo {
+    width: 40%;
+    margin: 0 auto;
+}
+
+
+.row-testo h2{
+
+    color: #33475b;
+    padding-bottom: 10px;
+    text-align: center;
+    /* margin: 0 auto; */
+}
+
+
+.row-testo p {
+    width: 60%;
+
+    font-size: 10px;
+    font-weight: 300;
+    color: grey;
+    line-height: 2;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+
 
 .bg-blue {
     background-color: #f5f8fa;
