@@ -79,9 +79,17 @@ header {
     font-size: 12px;
 }
 
+.btn-small {
+    padding: 10px 30px;
+}
+
+.btn-big {
+    padding: 40px 50px;
+    font-size: 25px;
+}
+
 .btn-white {
     color: #ff7a59;
-    padding: 10px 30px;
     margin: 15px 0;
     border: 1px solid #ff7a59;
     background-color: white;
@@ -89,7 +97,6 @@ header {
 
 .btn-orange {
     color: white;
-    padding: 10px 30px;
     margin: 15px 0;
     background-color: #ff7a59
 
@@ -131,17 +138,27 @@ nav a {
 
 .bg-pink {
     background-color: #fff3ee;
+    background-image: url('https://cdn2.hubspot.net/hubfs/53/raw_assets/public/_Web%20Team%20Assets/Website/assets/svg/hero.svg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 650px;
 }
 
 .banner {
-    height: 400px;
+    border: 1px solid red;
     position: relative;
+    height: 400px;
 }
 
-.bg-pink .banner img {
+.jumbotron {
+    width: 40%;
     position: absolute;
-    float: right;
+    padding: 0 30px;
+    top: 50%;
+    transform: translateY(-50%);
 }
+
 
 
 
