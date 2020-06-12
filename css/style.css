@@ -146,19 +146,26 @@ nav a {
 }
 
 .banner {
+    width: 50%;
     border: 1px solid red;
     position: relative;
     height: 400px;
 }
 
 .jumbotron {
-    width: 40%;
+    width: 50%;
     position: absolute;
-    padding: 0 30px;
     top: 50%;
     transform: translateY(-50%);
+    border: 1px solid black;
+    margin: 0 auto;
 }
 
+.jumbotron h1{
+    color: #33475b;
+    font-size: 50px;
+    font-weight:bolder;
+}
 
 
 
