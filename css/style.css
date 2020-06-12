@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #f5f8fa;
+    border: 1px solid #cbd6e2;
+}
+
+.header-bar {
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* DA CANCELLARE */
+     /* height: 100px;  */
+}
+
+.header-sx {
+    float: left;
+    /* padding: 25px 0; */
+}
+
+.header-sx li {
+    padding: 10px;
+    display: inline-block;
+}
+
+.fa-globe {
+    color: #33475b;
+}
+
+.header-sx a {
+    padding: 5px;
+    text-decoration: none;
+    color:grey;
+}
+
+.fa-sort-down {
+    color: #7c98b6;
+}
+
+.header-sx hr {
+    width: 2px;
+    height: 30px;
+    padding-top: 20px;
+    border: 1px solid grey;
+}
+
+.header-dx {
+    float: right;
+}
+
+.header-dx li {
+    padding: 10px;
+    display: inline-block;
+}
+
+.fa-search {
+    color: #00a4bd;
+}
+
+.btn {
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.btn-white {
+    color: #ff7a59;
+    padding: 10px 30px;
+    margin: 15px 0;
+    border: 1px solid #ff7a59;
+    background-color: white;
+}
+
+.btn-orange {
+    color: white;
+    padding: 10px 30px;
+    margin: 15px 0;
+    background-color: #ff7a59
+
+}
+
+
+
+.logo-bar {
+    background-color: #ffffff;
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo-bar img {
+    width: 120px;
+    height: 80px;
+    float:left;
+    padding-bottom: 10px;
+}
+
+nav {
+    float: right;
+}
+
+nav li {
+    padding: 30px 7px;
+    display: inline-block;
+}
+
+nav a {
+    padding: 5px;
+    text-decoration: none;
+    color: #33475b;
+}
+
+
+
+
+.bg-pink {
+    background-color: #fff3ee;
+
+    /* DA CANCELLARE */
+    height: 300px;
+}
+
+.bg-azure {
+    background-color: #f5f8fa;
+
+    /* DA CANCELLARE */
+    height: 300px;
+}
+
+.bg-blue {
+    background-color: #f5f8fa;
+
+    /* DA CANCELLARE */
+    height: 300px;
+}
+
+.bg-white {
+    background-color: #ffffff;
+
+    /* DA CANCELLARE */
+    height: 300px;
+}
+
+footer {
+    background-color: #33475b;
+
+    /* DA CANCELLARE */
+    height: 300px;
+}
