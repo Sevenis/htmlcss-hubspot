@@ -90,7 +90,7 @@ header {
 }
 
 .btn-big {
-    padding: 25px 25px;
+    padding: 20px 20px;
     font-size: 20px;
 }
 
@@ -210,6 +210,7 @@ nav a {
 
 .row-top {
     background-color: #f5f8fa;
+    border: 1px solid black;
 
 }
 
@@ -252,8 +253,88 @@ margin: 0 35%;
     margin: 0 auto;
 }
 
+/* Seconda ROW */
+
+.row-middle{
+    height:400px;
+}
+
+.middle-sx {
+    width: 30%;
+    height: 100%;
+    border: 1px solid black;
+    float: left;
+}
+
+.middle-sx .sx-box {
+    width: 150px;
+    margin: 50px auto;
+}
+
+.middle-sx .sx-box img{
+    width: auto;
+    height: 120px;
+}
+
+.middle-sx .btn-orange {
+    margin: 40px auto;
+
+}
+
+.middle-dx {
+    width: 60%;
+    height: 100%;
+    border: 1px solid red;
+    float: left;
+}
+
+.middle-dx .dx-box {
+    margin: 50px auto;
+}
+
+.middle-dx h3 {
+    color: #33475b;
+    padding-bottom: 30px;
+}
 
 
+.middle-dx p {
+    /* width: 60%; */
+    font-size: 15px;
+    font-weight: 300;
+    color: grey;
+    line-height: 2;
+    /* text-align: center; */
+    margin: 0 auto;
+}
+
+.middle-dx h4 {
+    color: #33475b;
+    padding: 30px 0;
+    float: left;
+}
+
+.middle-dx .dx-box .linea {
+    width: 350px;
+    height: 40px;
+    margin-left: 50px;
+    border-bottom: 2px solid #33475b;
+    float: left;
+}
+
+
+.dx-box ul {
+    border: 1px solid black;
+    margin: 40px auto;
+    float: left;
+}
+.dx-box li {
+    display: inline-block;
+}
+
+.dx-box .fas {
+    color: orange;
+}
 
 
 .bg-blue {
