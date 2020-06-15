@@ -497,12 +497,31 @@ margin: 0 auto;
     border-bottom: 0;
 }
 
-
+/* Inizio sezione white */
 .bg-white {
     background-color: #ffffff;
 
     /* DA CANCELLARE */
     height: 300px;
+}
+
+.white-up {
+    height: 150px;
+    border: 1px solid black;
+}
+
+.white-down {
+    height: 150px;
+    border: 1px solid black;
+}
+
+.white-usx {
+    width: 30%;
+    border: 1px solid red;
+}
+
+.white-udx {
+    width: 70%;
 }
 
 footer {
