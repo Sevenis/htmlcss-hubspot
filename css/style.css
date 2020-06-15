@@ -12,8 +12,6 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    max-width: 1200px;
-    margin: 0 auto;
 
 }
 
@@ -26,7 +24,8 @@ header {
 
 .header-bar {
     width: 70%;
-    /* margin: 0 auto; */
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .header-sx {
@@ -139,18 +138,20 @@ nav a {
 /* SEZIONE BANNER + JUMBOTRON */
 .bg-pink {
     background-color: #fff3ee;
-    background-image: url('https://cdn2.hubspot.net/hubfs/53/raw_assets/public/_Web%20Team%20Assets/Website/assets/svg/hero.svg');
-    background-position: bottom right;
-    background-repeat: no-repeat;
-    background-size: contain;
     height: 650px;
 }
 
 .banner {
     width: 70%;
+    max-width: 1200px;
     position: relative;
-    height: 500px;
+    height: 650px;
     margin: 0 auto;
+    background-color: #fff3ee;
+    background-image: url('https://cdn2.hubspot.net/hubfs/53/raw_assets/public/_Web%20Team%20Assets/Website/assets/svg/hero.svg');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .jumbotron {
@@ -191,6 +192,7 @@ nav a {
 
 .row {
     width: 70%;
+    max-width: 1200px;
     background-color: white;
     margin: 0 auto;
 }
@@ -322,29 +324,179 @@ margin: 0 auto;
 .row-bottom {
     height:400px;
     background-color: #f5f8fa;
+    margin: 0 auto;
 }
 
 .b-box {
-    width: 200px;
-    height: 300px;
+    width: 30%;
+    background-color: white;
+    border-radius: 5px;
     border: 1px solid green;
     float: left;
-    margin: 30px;
+    padding: 20px 20px;
+    text-align: center;
 }
 
+.b-box img {
+    width: 50%;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0;
+}
 
+.b-box h3 {
+    color: #33475b;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
 
+.b-box p {
+    font-size: 12px;
+    font-weight: 300;
+    color: #33475b;
+    line-height: 2;
+    padding-bottom: 20px;
+}
 
+.b-box h4 {
+    color: #33475b;
+    padding: 30px 0;
+}
 
+.b-box hr {
+    border-bottom: 1px solid grey;
+    margin: 0 20px;
+}
 
+.b-box ul {
+    list-style-type: none;
+    text-align: left;
+    padding-left: 5px;
+    color: #33475b;
+    font-size: 15px;
+    font-weight: 300;
+    padding-bottom: 15px;
+}
 
+.b-box .fas {
+    color: orange;
+}
 
+.b-box .btn-orange {
+    margin-top: 40px;
+}
+
+.secondo {
+    margin: 0 42px;
+}
+
+.terzo {
+    float: right;
+}
+
+/* INIZIO SEZIONE BLUE */
 .bg-blue {
-    background-color: #f5f8fa;
+    margin-top: 50px;
+    background-image: linear-gradient(to right, #00aab7 , #00baa8);
 
     /* DA CANCELLARE */
-    height: 300px;
+    /* height: 300px; */
 }
+
+.bg-blue .container {
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container h2 {
+    color: white;
+    font-size: 30px;
+    padding: 30px 10px;
+    margin: 0 100px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.container p {
+    color: white;
+    font-size: 18px;
+    margin: 0 150px;
+    text-align: center;
+    line-height: 2;
+    font-weight: 100;
+}
+
+.squares {
+    width: 70%;
+    max-width:1200px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+.sqr {
+    width: 24%;
+    float:left;
+    padding: 10px 10px;
+}
+
+.sqr h2 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.sqr p {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.sqr img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0;
+}
+
+.one {
+    border: 1px solid white;
+    border-top: 0;
+    border-left:0;
+}
+
+.two, .three {
+    border: 1px solid white;
+    border-top: 0;
+}
+
+.four {
+    border: 1px solid white;
+    border-top: 0;
+    border-right: 0;
+}
+
+.five {
+    border: 1px solid white;
+    border-left: 0;
+    border-bottom: 0;
+}
+
+.six, .seven {
+    border: 1px solid white;
+    border-bottom: 0;
+}
+
+.eight {
+    border: 1px solid white;
+    border-right: 0;
+    border-bottom: 0;
+}
+
 
 .bg-white {
     background-color: #ffffff;
