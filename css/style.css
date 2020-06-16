@@ -317,6 +317,7 @@ margin: 0 auto;
 
 .dx-box .fas {
     color: orange;
+    padding: 10px;
 }
 
 /* Middle-Box Terza Row */
@@ -502,27 +503,55 @@ margin: 0 auto;
     background-color: #ffffff;
 
     /* DA CANCELLARE */
-    height: 300px;
+    /* height: 800px; */
 }
 
 .white-up {
-    height: 150px;
-    border: 1px solid black;
 }
 
 .white-down {
-    height: 150px;
+    height: 500px;
     border: 1px solid black;
 }
 
 .white-usx {
     width: 30%;
-    border: 1px solid red;
+    float: left;
+}
+
+.usx-testo {
+    text-align: center;
+    color: #33475b;
+}
+
+
+.usx-testo h2 {
+    font-size: 40px;
+    margin: 30px 20px;
+}
+
+.usx-testo p {
+    font-size: 12px;
+    padding: 0 100px;
+    line-height: 2;
 }
 
 .white-udx {
     width: 70%;
+    padding-top: 20px;
+    padding-left: 150px;
+    float: right;
 }
+
+.bnr img {
+    width: 100px;
+    height: 30px;
+    float: left;
+    margin: 30px 20px;
+}
+
+
+
 
 footer {
     background-color: #33475b;
