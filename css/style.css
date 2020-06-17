@@ -141,6 +141,7 @@ nav a {
 /* SEZIONE BANNER + JUMBOTRON */
 .bg-pink {
     background-color: #fff3ee;
+    background: linear-gradient(0deg, #afebe4 10%, #33475c 10%, #fff3ee 11%);
     height: 650px;
 }
 
@@ -150,7 +151,8 @@ nav a {
     position: relative;
     height: 650px;
     margin: 0 auto;
-    background-color: #fff3ee;
+    /* background-color: #fff3ee; */
+
     background-image: url('https://cdn2.hubspot.net/hubfs/53/raw_assets/public/_Web%20Team%20Assets/Website/assets/svg/hero.svg');
     background-position: bottom right;
     background-repeat: no-repeat;
@@ -626,7 +628,7 @@ footer {
 
 /* PERCHE' 100% e non 70%?!?! */
 .foot {
-    width: 100%;
+    width: 70%;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -691,9 +693,9 @@ footer {
     display: inline-block;
 }
 
-.li .active:hover {
+/* li.active:hover {
     border-bottom: 2px solid red;
-}
+} */
 
 .overlay {
     position: absolute;
